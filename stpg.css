@@ -1,0 +1,181 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #033446;
+}
+
+
+header {
+  background-color: #031333;
+  color: #fff;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+header h1 {
+  font-weight: bolder;
+}
+
+nav {
+  color: #fff;
+ 
+}
+
+nav div{
+  display:inline-flex;
+}
+
+.dropdown button {
+  background-color: #071a43; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin: 5px; 
+}
+
+ button:hover{
+  background-color: #1f659f;
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  background-color: #333; 
+}
+
+.dropdown-menu a {
+  color: #fff; 
+  text-decoration: none; 
+  display: block; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s; 
+}
+
+.dropdown-menu a:hover {
+  background-color: #012e3c;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+ 
+}  
+
+main h2 {
+  text-align: center;
+  color: #80f3f1;
+  background-color: rgb(41, 42, 47);
+  font-weight: bolder;
+  text-decoration: underline;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 0%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+  
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  font-weight: bold;
+  text-align: justify;
+  background-color: #3e7388;
+  color: rgb(234, 244, 242);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 4%;
+  margin-right:4%;
+}
+
+footer {
+  background-color: #031333;
+  color: #fff;
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 1%;
+  padding-bottom: 2%;
+}
+
+table{
+text-align: center;
+color: white;
+width: 98%;
+background-color: #5578b1;
+border: 1px solid;
+border-collapse: unset;
+font-size: 26px;
+margin-left: 1%;
+margin-right: 1%;
+}
+
+table th, td{
+border: 1px solid;
+}
+
+a {
+font-weight: bold;
+color: #013c26;
+text-decoration: none;
+}
+
+a:hover {
+
+color: #efdce4;
+}
+
+table th{
+background-color: #072843;
+}
+
+table tr{
+background-color: #113664;
+}
+
+button{
+background-color: #97eae0;
+}
+#highlight{
+  color:#031f13;
+}
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 75%;
+}
+.carousel-inner .carousel-item img{
+  width: 64px;
+  height: 36px;
+}
+#books{
+  width: 78%;
+  margin-left: 10%;
+}
+marquee{
+  margin-top: 2%;
+}
+marquee img{
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
